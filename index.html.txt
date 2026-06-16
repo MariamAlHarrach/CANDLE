@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CANDLE Project</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #111;
+    background: #fff;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #eef2f7);
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* SECTION */
+.section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #444;
+    line-height: 1.7;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+/* CARD */
+.card {
+    padding: 25px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fafafa;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* SPLIT */
+.split {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.split img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 40px;
+    color: #777;
+    border-top: 1px solid #eee;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <h1>CANDLE</h1>
+        <p>
+        Combinaison de modèles biomathématiques neuro-inspirés avec des données (pré)cliniques 
+        pour l’optimisation médicamenteuse dans l’épilepsie
+        </p>
+    </div>
+</section>
+
+<!-- RATIONALE -->
+<section class="section">
+    <h2>Scientific Rationale</h2>
+    <p>
+    Epilepsy remains characterized by strong inter-individual variability in drug response.
+    CANDLE addresses this limitation by integrating neuro-inspired computational models with 
+    preclinical and clinical data, enabling mechanistic understanding and predictive optimization 
+    of therapeutic strategies.
+    </p>
+</section>
+
+<!-- OBJECTIVES -->
+<section class="section">
+    <h2>Objectives</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Data Integration</h3>
+            <p>Multimodal integration of electrophysiological and clinical datasets.</p>
+        </div>
+
+        <div class="card">
+            <h3>Modeling</h3>
+            <p>Development of biophysical and reduced computational models of epileptic networks.</p>
+        </div>
+
+        <div class="card">
+            <h3>Prediction</h3>
+            <p>Optimization of pharmacological strategies using model-driven inference.</p>
+        </div>
+    </div>
+</section>
+
+<!-- METHODS -->
+<section class="section">
+    <div class="split">
+        <img src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b" alt="">
+        <div>
+            <h2>Methodological Framework</h2>
+            <p>
+            The project combines mechanistic modeling (e.g., neural mass and microcircuit models),
+            data assimilation techniques, and machine learning approaches to bridge scales from
+            cellular dynamics to clinical outcomes.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CONSORTIUM -->
+<section class="section">
+    <h2>Consortium</h2>
+    <p>
+    The CANDLE consortium brings together expertise in computational neuroscience, clinical
+    neurology, pharmacology, and data science across leading French research institutions.
+    </p>
+</section>
+
+<!-- OUTPUTS -->
+<section class="section">
+    <h2>Outputs</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Software</h3>
+            <p>Open-source simulation tools for epilepsy modeling.</p>
+        </div>
+
+        <div class="card">
+            <h3>Datasets</h3>
+            <p>Curated multimodal datasets for translational research.</p>
+        </div>
+
+        <div class="card">
+            <h3>Publications</h3>
+            <p>Peer-reviewed contributions in computational and clinical neuroscience.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+    ANR PEPR Project CANDLE – INSERM & Partners – 2026
+</div>
+
+</body>
+</html>
